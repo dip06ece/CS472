@@ -16,3 +16,4 @@ function main() {
     // Example usage:
     console.log("This house is not nice!".filter(['not']));
 }
+
