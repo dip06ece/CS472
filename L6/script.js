@@ -180,11 +180,13 @@ function main() {
     console.log(arr.bubbleSort());
 
     // Create a Teacher object
+    console.log("Exercise 3:");
     const mrSmith = new Teacher('Mr. Smith');
     console.log(mrSmith.teach('Mathematics'));
 
     // Approach 1
     // Create instances and test
+    console.log("Exercise 4: Prototype Approach");
     const student = new Student('Alice', 20, 'Computer Science');
     const professor = new Professor('Dr. Smith', 45, 'Mathematics');
 
@@ -195,6 +197,7 @@ function main() {
     professor.salute();
 
     // Approach 2: Create instances and test
+    console.log("Exercise 4: Function Constructor Approach");
     const student2 = new Student2('Alice', 20, 'Computer Science');
     const professor2 = new Professor2('Dr. Smith', 45, 'Mathematics');
 
