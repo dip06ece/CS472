@@ -3,7 +3,7 @@ $(document).ready(function(){
     let isStart = false;
 
     $("#start").click(function(){
-        //isWin = true;
+        isWin = true;
         if(!isStart){
             isStart = true;
             $('#maze > div.boundary').removeClass('youlose');
