@@ -19,6 +19,7 @@ $(document).ready(function(){
             }
             else{
                 $("#status").text("You lost. :(");
+                isWin = false;
             }
         }
         isStart = false;
@@ -39,6 +40,7 @@ $(document).ready(function(){
                 //disable cheating
                 $("#status").text("You lost. :(");
                 $("#maze > div.boundary").addClass("youlose");
+                isWin =false;
                 isStart = false;
             }
         }
